@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="xl:max-w-[full] w-full text-white">
           <section
             id="home"
-            className={`flex md:flex-row flex-col justify-between${styles.paddingY}`}
+            className={`flex md:flex-row flex-col justify-between ${styles.paddingY}`}
           >
             <div
               className={`flex-1 ${styles.flexStart} flex-col xl:px-0 w-1/2 sm:pl-16 pl-8`}
