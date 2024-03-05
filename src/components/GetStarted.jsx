@@ -5,7 +5,7 @@ import { arrowUp } from '../assets'
 const GetStarted = () => {
   return (
     <>
-      <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
+      <div className={`${styles.flexCenter} w-[140px] h-[140px]  rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
         <div className={`${styles.flexCenter} bg-primary w-full h-full rounded-full flex-col`}>
           <div className={`${styles.flexStart}`}>
             <p className='font-poppins font-medium text-[18px] leading-[23px] mr-2'>

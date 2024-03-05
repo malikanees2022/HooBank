@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="xl:max-w-[full] w-full text-white">
           <section
             id="home"
-            className={`flex md:flex-row flex-col justify-between ${styles.paddingY}`}
+            className={`flex md:flex-row   lg:px-10 flex-col justify-between ${styles.paddingY}`}
           >
             <div
               className={`flex-1 ${styles.flexStart} flex-col xl:px-0 w-1/2 sm:pl-16 pl-8`}
@@ -41,15 +41,16 @@ const Hero = () => {
               </h1>
               <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
             </div>
-            <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative ml-12 w-1/2`}>
+            <div className={`ss:hidden bg-slate-50 ${styles.flexCenter}`}>
+            <GetStarted />
+            </div>
+            <div className={`flex-1  flex ${styles.flexCenter} md:my-0 my-10 relative ml-12 w-1/2`}>
               <img src={robot} alt="billing" className='w-3/4 h-full relative z-[5]' />
               <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient' />
               <div className='absolute z-[1] w-[80%] h-[80%] bottom-40 rounded-full white__gradient' />
               <div className='absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient' />
             </div>
-            <div className={`ss:hidden ${styles.flexCenter}`}>
-              <GetStarted />
-            </div>
+            
           </section>
         </div >
       </div >
